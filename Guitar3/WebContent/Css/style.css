@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+html, body {
+		font-family: 'Lato', 微软雅黑;
+		font-size: 100%;
+		background: #c0c0c0;
+	}
+	.form-control{
+		margin-top:0px;
+	}
+	.glyphicon{
+		top:0;
+	}
+	#warning{
+		padding:5px 0;
+	}
+	h2,.input-group{
+		margin-bottom:10px;
+	}
+	.input-group{
+		margin-bottom:5px;
+	}

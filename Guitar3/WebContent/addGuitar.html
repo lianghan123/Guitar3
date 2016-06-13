@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<title>吉他添加</title>
+<link href="Css/bootstrap.css" rel="stylesheet">
+<link href="Css/style.css" rel="stylesheet">
+</head>
+<body>		
+	<form action="AddGuitar" method="post">
+					
+					<div class="modal-body" style="text-align: center;">
+						
+						<table id="guitar" align="center">
+							<tr>
+								<td>吉他编号：</td>
+								<td><input type="text" name="serialNumber" class="form-control" /></td>
+							</tr>
+							<tr>
+								<td>制造商：</td>
+								<td><select class="selector form-control" name="builder">
+										<option value="Fender">Fender</option>
+										<option value="Martin">Martin</option>
+										<option value="Gibson">Gibson</option>
+										<option value="Collings">Collings</option>
+										<option value="Olson">Olson</option>
+										<option value="Ryan">Ryan</option>
+										<option value="PRS">PRS</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td>吉他类型：</td>
+								<td><input type="text" name="type" class="form-control" /></td>
+							</tr>
+							<tr>
+								<td>背部材料：</td>
+					          <td><input type="text" name="backWood" class="form-control" /></td>
+
+							</tr>
+							<tr>
+								<td>顶部材料：</td>
+							 <td><input type="text" name="topWood" class="form-control" /></td>
+
+							</tr>
+							<tr>
+								<td>吉他弦数：</td>
+								<td><input type="text" name="stringNum" class="form-control" /></td>
+							</tr>
+							<tr>
+								<td>吉他型号：</td>
+								<td><input type="text" name="model" class="form-control" /></td>
+							</tr>
+							<tr>
+								<td>商品价格：</td>
+								<td><input type="text" name="price" class="form-control" /></td>
+							</tr>
+						</table>
+						<button type="submit" class="btn btn-primary">确认添加</button>
+					</div>
+				</form>			
+<script src="Js/jquery.min。js"></script>
+	<script src="Js/bootstrap.min.js"></script>
+	<script src="Js/bootstrap.js"></script>
+</body>
+</html>
